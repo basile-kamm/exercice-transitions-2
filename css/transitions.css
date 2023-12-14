@@ -1,0 +1,100 @@
+#ex01 .recipe {
+  transition: 0.4s;
+}
+
+#ex01 .recipe:hover {
+  scale: 1.1;
+}
+
+#ex02 .recipe img {
+  transition: 0.4s;
+}
+
+#ex02 .recipe:hover img {
+  transform: rotate(20deg);
+}
+
+#ex03 .recipe img {
+  transition: 0.4s;
+}
+
+#ex03 .recipe:hover img {
+  opacity: 0.7;
+}
+
+#ex04 .recipe h2 {
+  transition: 0.4s;
+}
+
+#ex04 .recipe:hover h2 {
+  transform: translateX(20px);
+}
+
+#ex05 .recipe h2 {
+  transition: 0.4s 0.2s;
+}
+
+#ex05 .recipe:hover h2 {
+  transform: translateX(20px);
+}
+
+#ex06 .recipe {
+  transition: 0.4s;
+}
+
+#ex06 .recipe:hover {
+  padding-bottom: 30px;
+}
+
+#ex07 .recipe {
+  transition-duration: 0.4s;
+  transition-delay: 0.2s;
+}
+
+#ex07 .recipe:hover {
+  padding-bottom: 30px;
+  transition-delay: 0;
+}
+
+#ex07 .recipe h2 {
+  transition-duration: 0.4s;
+  transition-delay: 0;
+}
+
+#ex07 .recipe:hover h2 {
+  transform: translateY(40px);
+  transition-delay: 0.4s;
+}
+
+#ex08 .recipe {
+  transition: 0.4s;
+}
+
+#ex08 .recipe:hover {
+  filter: drop-shadow(0 0 10px #000000);
+}
+
+#ex09 .recipe-header {
+  transition: 0.4s;
+  background: white;
+}
+
+#ex09 .recipe:hover .recipe-header {
+  transform: translateY(-20px);
+}
+
+#ex10 .recipe-image-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+#ex10 img:nth-child(2) {
+  position: absolute;
+  top: 0;
+  transform: translateX(-100%);
+  transition: transform 0.5s;
+}
+
+#ex10 .recipe-image-wrapper:hover img:nth-child(2) {
+  transform: translateX(0);
+}
